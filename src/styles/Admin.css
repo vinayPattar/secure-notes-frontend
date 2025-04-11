@@ -1,0 +1,38 @@
+/* Admin.css */
+.admin-page {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    padding: 20px;
+    background: #f4f4f4;
+  }
+  
+  .admin-content {
+    margin-left: 250px; /* Offset the content by the sidebar width */
+    flex-grow: 1; /* Allow the content to take up the remaining space */
+    padding: 20px;
+    background: #fff; /* Background color for the content area */
+    min-height: 100vh; /* Ensure content area is full height */
+  }
+  
+  .audit-logs table,
+  .user-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .audit-logs table th,
+  .audit-logs table td,
+  .user-list table th,
+  .user-list table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .audit-logs table th,
+  .user-list table th {
+    background-color: #f2f2f2;
+  }
+  

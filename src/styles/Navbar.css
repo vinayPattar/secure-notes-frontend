@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar a, .navbar button {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .navbar button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .navbar button:hover, .navbar a:hover {
+    text-decoration: underline;
+  }
+  
